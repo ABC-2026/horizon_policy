@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Simulator temp files
+archi/python/simulator/**/__pycache__/
+archi/python/simulator/**/*.pyc
+
+# Temporary debug scripts
+**/temp.py
+**/test_*.py
+**/verify_*.py
+
+# CoppeliaSim backups
+*.ttt.bak
