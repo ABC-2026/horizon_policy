@@ -1,0 +1,177 @@
+Insights
+Biggest Problems
+Measuring our success quantitatively.
+Quality Narrative:
+Do not sell the robot by marketing its technology as a novelty.
+
+Sell it using the narrative:
+
+"Our robots keep all the other robots in your lab busy."
+
+Working business models and the ones we rejected.
+Selling software as part of our package is important because it allows us to track performance and gather data. This enables us to calculate metrics such as TAT, IQ, and OQ, which helps justify and promote our robot.
+Business Study
+What Problem Are We Solving?
+
+We are building a robot that does not focus on a single process that needs automation. Doing so would actually go against our general policy thinking.
+
+We are building frameworks that should, at least in theory, be capable of automating every general-purpose task. We may focus on a specific task, such as test tube handling, but that is only to demonstrate the capabilities of our general-purpose robot.
+
+The way we design the system is intended to automate all general-purpose tasks. What we are ultimately betting on is the continued improvement of VLA-based systems until they become capable of making this vision practical.
+
+Business Model
+Hybrid Business Model
+Why a Hybrid Business Model?
+
+The report suggests that revenue should come from three different sources rather than simply selling a robot.
+
+1. One-Time Deployment Fee (Large Upfront Payment)
+
+When a lab purchases the solution, they pay for:
+
+Gantry hardware
+Cameras
+Installation
+Integration with their LIS (Laboratory Information System)
+Initial setup and training
+
+Example:
+
+Hardware + Deployment = ₹15–30 lakh
+
+This is the initial revenue stream.
+
+2. Recurring Software Subscription (Monthly/Yearly)
+
+The robot is only valuable because of the software and AI.
+
+Labs pay continuously for:
+
+VLA updates
+Workflow improvements
+Analytics
+Monitoring
+Remote support
+
+Example:
+
+₹50,000–₹2 lakh per month
+
+This creates predictable recurring revenue.
+
+3. Service & Support Revenue
+
+Labs require reliability because every minute of downtime affects patient reports.
+
+Support plans may include:
+
+Tier	Example
+Basic	Business-hours support
+Premium	24/7 support
+Enterprise	Dedicated engineer and rapid response
+
+Labs pay annually for these plans.
+
+Why Start with a Gantry Instead of a Robotic Arm?
+
+This is one of the most important insights.
+
+A robotic arm sounds impressive, but:
+
+Robotic Arm
+
+Pros
+
+Flexible
+Can reach many places
+
+Cons
+
+Expensive
+Complex
+Safety concerns
+Harder to integrate
+Requires more maintenance
+Gantry Robot
+
+Pros
+
+Simpler
+Cheaper
+Safer
+Easier to install
+Easier to maintain
+More precise for moving tubes
+
+Cons
+
+Less flexible
+
+For most labs, 80% of the problem is simply:
+
+"Move this tube from Point A to Point B."
+
+A gantry does this extremely well.
+
+Instead of building a humanoid robot on day one, we start with a gantry system and add intelligence through the VLA.
+
+Assistive Robots
+
+The controller we use to train the robot can also be used directly to operate the robot as an assistive system that helps with heavy work.
+
+As the software used to train the robot improves, the assistive capabilities improve as well.
+
+Assistive tasks can also be recorded and used to train the VLA because the same software is used both for robot operation and robot training.
+
+What Is the "Wedge"?
+
+In startups, a wedge is the first small problem you solve to enter a market.
+
+Do not try to automate an entire laboratory immediately.
+
+Instead, move in phases.
+
+Phase 0: Simulations and Grant Acquisition
+
+Prototype everything in simulation and demonstrate proof of concept to secure grants.
+
+We have already started this work. We are using CoppeliaSim to simulate the robot and train the VLA within the simulation environment itself.
+
+This simulation and VLA framework could also be sold as software to robotics companies or open-sourced to help grow the local ecosystem and talent pool.
+
+We have applied for grants in multiple places and plan to approach EITB Shakti in Bangalore, the Thiel Foundation, Merantix, and others. These are key milestones we aim to achieve.
+
+Phase 1: Simple Gantry
+
+Solve:
+
+Tube pickup
+Barcode scanning
+Tube routing
+Rack placement
+
+This alone saves labor and reduces errors.
+
+The controller used to record training datasets and the PID software make it possible to use the gantry as an assistive robot capable of helping humans carry heavy loads with minimal software changes.
+
+Phase 2: Gantry with an Arm
+
+Add:
+
+Fridge handling
+Centrifuge loading/unloading
+Analyzer loading
+
+The same controller and PID software continue to support assistive use cases with minimal modifications.
+
+Phase 3: Gantry with Two Robotic Arms
+
+Add:
+
+General-purpose robotic arms
+Multi-lab workflows
+Full adaptive automation
+
+This wedge strategy works because each phase not only extends the financial runway but also allows deployed robots to collect data that improves the model, unlocking additional opportunities and resources needed to tackle the next phase.
+
+The controller and training infrastructure can continue to support assistive robotics use cases throughout all phases.
