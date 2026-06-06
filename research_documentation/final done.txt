@@ -1,0 +1,574 @@
+insights 
+
+biggest problems 
+1. measuring our success quantifiably 
+
+2. quality narrative :
+   dont sell the robot by marketing its technology as novelty 
+   sell using a narrative "our robots keep all the other robots in your lab busy "
+
+3. working business models and ones we rejected 
+
+4. selling sofware as a part of our package is important as it lets us track performance and gather data this let us calculate things like tat iq oq etc which helps push our robot 
+
+
+business study 
+
+what problem are we solving ?
+
+we are building a robot tht does not focus on a specific process tht needs automation tht actually goes against our genral policy thinking we are building frame works tht should atleast in theory must be able to automate every genral porpose task we might focus on a specific task like test tube handeling but tht is just to demonstrate the capabilities of our genral policy robot but the way we design it is actually made to automate all the genral policy tasks and what we are betting on is the growth of vla based system to get good to the point where this is possible 
+
+business model?
+
+hybrid business model 
+
+
+Why a Hybrid Business Model?
+
+The report says you should make money in three ways, not just by selling a robot.
+
+1. One-Time Deployment Fee (Large Upfront Payment)
+
+When a lab buys your solution, they pay for:
+
+Gantry hardware
+Cameras
+Installation
+Integration with their LIS (Laboratory Information System)
+Initial setup and training
+
+Example:
+
+Hardware + deployment = ₹15–30 lakh
+
+This is your initial revenue.
+
+2. Recurring Software Subscription (Monthly/Yearly)
+
+The robot is only useful because of the software and AI.
+
+Labs pay continuously for:
+
+VLA updates
+Workflow improvements
+Analytics
+Monitoring
+Remote support
+
+Example:
+
+₹50,000–₹2 lakh per month
+
+This becomes predictable recurring revenue.
+
+3. Service & Support Revenue
+
+Labs need reliability because every minute of downtime affects patient reports.
+
+Offer support plans such as:
+Tier	Example
+Basic	Business-hours support
+Premium	24/7 support
+Enterprise	Dedicated engineer + fast response
+Labs pay annually for these plans.
+
+Why Start with a Gantry Instead of a Robotic Arm?
+This is the most important insight.
+A robotic arm sounds impressive, but:
+Robotic Arm
+
+
+Pros:
+
+Flexible
+Can reach many places
+
+Cons:
+
+Expensive
+Complex
+Safety concerns
+Harder to integrate
+More maintenance
+Gantry Robot
+
+Pros:
+
+Simpler
+Cheaper
+Safer
+Easier to install
+Easier to maintain
+More precise for moving tubes
+
+Cons:
+
+Less flexible
+For most labs, 80% of the problem is simply:
+"Move this tube from Point A to Point B."
+A gantry does this very well.
+So instead of building a humanoid robot on day one, you start with a gantry system and add intelligence through the VLA.
+
+
+4.  assistive robots :
+the controller tht we use to train the robot can directly be used to use the robots as a assistive robot tht helps in doing heavy work 
+as the software tht is used to train the robot gets better the assistive mechanics get better also the assistive task could be recorded to train the vla as the software used to train a robot is the same 
+
+
+
+
+
+What is the "Wedge"?
+In startups, a wedge means:
+The first small problem you solve to enter the market.
+Don't try to automate the entire laboratory immediately.
+
+Instead move in phases :
+
+phase 0 (simulations and grant aqquirement) :
+prototype everything on a sim and show proof of concept to aquire grants 
+we have already started work on this we are using coppeliasim to simulate the robot and train the vla using the sim itself this simulator vla framework itself could be soled as a software the robotics companies or can be open sourced to help grow the local ecosystem and talent
+
+we have applied for grants in multiple places and plan on goin to eitb shakti to aquire grants in bangalore , theil fooundation , merantix and others all these are milestones we want to accomplish 
+
+
+
+
+Phase 1(simple gantry )
+Solve:
+Tube pickup
+Barcode scanning
+Tube routing
+Rack placement
+This alone saves labor and reduces errors.
+the controller used to record dataset in training in the company and the pid software used in it makes it possible to use the gantry also as a assistive robot tht could assist humans to carry heavy loads with minimal software changes 
+
+Phase 2(gantry with an arm)
+Add:
+Fridge handling
+Centrifuge loading/unloading
+Analyzer loading
+the controller used to record dataset in training in the company and the pid software used in it makes it possible to use the gantry also as a assistive robot tht could assist humans to carry heavy loads with minimal software changes 
+
+
+Phase 3(a gantry with 2 robotic arms )
+Add:
+General-purpose robotic arms
+Multi-lab workflows
+Full adaptive automation
+the reason this wedge works is because each phase does'nt just extend the financial runway but also the deployed robots can feed data tht makes the model better which unlocks more possibilities and resources to tackle the next phase 
+the controller used to record dataset in training in the company and the pid software used in it makes it possible to use the gantry also as a assistive robot tht could assist humans to carry heavy loads with minimal software changes 
+
+
+
+
+
+
+
+
+detail
+
+capex(capital expenditure ) for big labs spending a large amount of money to aquire a robot outright is nothing new to them its just tht there were no robots automating the genral tasks if it was a thing they would have already bought it even though this business model works it doesn't fit the startup well because we need data to train the model and data to expand into the market and analyize the pain points to further move up phases but in this business model once we set it up the only reason they need us is to maintain the robot and our team doesn't want to build a robot tht needs alot of maintanence because by doing so we dont stay true to the policy of increasing throughput time to save lives as the maintanence would add throughput time 
+
+
+
+2. RaaS Model (Robot as a Service)
+Instead of selling the robot:
+You install it for free or low cost.
+Customer pays monthly.
+Example:
+₹1 lakh/month
+Why labs like it
+No big upfront payment.
+Instead of:
+₹25 lakh today
+They pay:
+₹1 lakh/month
+Much easier to approve.
+and it will also enrich the robotics ecosystem as new player will be able to emerge as there is no huge capex or barrier to entry in labs so more labs enriches the ecosystem 
+
+
+
+disadvantages of raas model 
+Why startups don't like it
+You still own the robot.
+So if:
+Robot breaks
+Customer cancels
+Robot sits unused
+You lose money.
+The startup takes all the risk.
+Example
+You build robot:
+Cost = ₹20 lakh
+Customer pays:
+₹1 lakh/month
+You need 20+ months just to recover hardware cost.
+If customer leaves after 6 months:
+You lose money.
+this is why we stay genral with our tasks cause even if a partner leaves we still can just use the robot for something else just by finetuning it for a different process for a different vendor thats the magic of a vla 
+
+
+5. Licensing Software/IP
+Instead of selling robots, you sell the software.
+Example:
+Your VLA software becomes really good.
+Large labs want it.
+Or analyzer manufacturers want it.
+You license it.
+Example
+Roche buys a license.
+Beckman buys a license.
+Siemens buys a license.
+They integrate your software into their systems.
+You earn royalties.this only comes up after phase 3 of our company where the vla or vljepa model gets gud to the point where its usefull for medical labs even without the robot 
+
+
+
+business models we thought about but ended up rejecting 
+
+
+
+3. Per-Test Pricing
+This means:
+Charge every time a sample is processed.
+Example:
+10 paise per tube
+or
+₹1 per sample
+Sounds attractive
+Lab says:
+"We only pay when we use it."
+Very easy sales pitch.
+The problem
+You don't control the expensive part.
+Labs make money from:
+Reagents
+Assays
+Diagnostic tests
+You only automate movement.
+Example
+Lab earns:
+₹500 blood test
+Your robot saves:
+₹5 worth of labor
+If you charge:
+₹1 per test
+You may actually be undercharging.
+The value you create is much bigger. even if we somehow find a way to integrate into the labs lis to calculate the value the value we provide is still upto their view and so its very hard to demand 
+
+
+4. Revenue Share
+This means:
+Startup gets a percentage of lab revenue.
+Example
+Lab revenue:
+₹1 crore/month
+You take:
+2%
+You earn:
+₹2 lakh/month
+Sounds great
+But why did the revenue increase?
+Was it:
+Better marketing?
+More customers?
+New test offerings?
+Your robot?
+Hard to prove.
+Also labs may say:
+"The extra revenue wasn't because of your robot."
+Now you have endless arguments.
+For pre/post-analytical automation this model is usually messy. same problem 
+
+
+
+
+
+
+plan to enter markets in detail 
+
+paid pilots 
+A pilot is a small trial project.
+Instead of saying:
+"Buy my ₹25 lakh robot."
+You say:
+"Let's test it in one part of your lab for 3 months."
+This helps both sides reduce risk.
+Example:
+Install robot in one sample-processing area
+Run for 3 months
+Measure results
+This is called a pilot.
+
+if measured results are above a certain metric tht we promised we ask them to aqquire it completely or use the raas model 
+
+why stay away from paid pilots even tho it might get us more initial traction 
+magine:
+
+Lab A agrees to a free pilot.
+Since they paid nothing:
+They delay meetings
+They ignore feedback
+They don't assign staff
+They don't prioritize the project
+After 6 months:
+"We'll get back to you later."
+You spent money and got nothing.
+this is wht we call a Dead Zone of Free Pilot and we discussed to stay away from this 
+
+
+What is a Pre-Agreed Conversion Path?
+Before the pilot starts, both sides agree:
+"If these results are achieved, here's what happens next."
+Example:
+Before pilot:
+"If robot reduces handling time by 40% and error rate by 30%, the lab will purchase 3 systems."
+Everything is agreed upfront.
+No surprises later.
+
+this initial strategy will help us to reduce risk even tho we might get a slow start it keeps us safe  from bank corrupcy 
+
+
+
+
+
+labs we will be targeting 
+
+labs tht process atleast 800-5000 samples a day,is NABL-Accredited or is planning to get accredited (by increasing tat and other measurable metric ) and has lis connectivity tht is able to record the number of samples and their locations this data helps us bargain the robots effectiveness in the pilot and helps us increase conversion rates and to bargain robots effectiveness we need to calculate tat or turn around time before and after the installation this metric is perfect as its easily measurable and labs care about TAT very deaply as ..
+
+Faster reports mean:
+Happier doctors
+Happier patients
+More samples processed
+Better business
+
+What does "TAT pressure" mean?
+The lab is under pressure to reduce reporting time.
+Example:
+Current TAT = 6 hours
+Goal = 3 hours
+Management is constantly asking:
+"How can we process samples faster?"
+These labs are more likely to buy automation.	
+this frame work helps us identify the potential contracts and deliver conversion rates
+
+
+market proof 
+
+
+
+for numerical info refer to deep research pdf in simple words 
+
+Opentrons Flex system costs
+
+Basic Flex Setup	₹25.3 lakh
+Larger Bundles	₹51.9 lakh - ₹92.6 lakh
+
+So the report is saying:
+Existing automation systems already sell in the ₹25 lakh to ₹1 crore range.
+
+ofc the addressable market of our company and opentrons is not directionally comparable 
+
+Why can't we directly compare Opentrons with your lab robot?
+Because Opentrons is mostly designed for:
+Research labs
+Academic labs
+Life science research
+
+Your solution targets:
+Clinical diagnostics
+Patient samples
+Healthcare operations
+
+These environments have much stricter requirements.
+
+What is Safety Engineering?
+Extra mechanisms to ensure:
+
+Nobody gets hurt
+Samples aren't contaminated
+Equipment doesn't crash
+
+Examples:
+Emergency stop buttons
+Safety sensors
+Collision detection
+Protective enclosures
+
+Research labs may tolerate some risk.
+Clinical labs generally cannot.
+
+we are trying to save lives so no shortcuts can be taken 
+those figures are useful only as directional comparables, because a clinical-diagnostics
+deployment in India will typically need extra safety engineering, analyzer integrations, FAT or SAT style
+deployment work, IQ or OQ validation support, onsite training, spare inventory, and stronger uptime
+obligations than a research-lab robot
+
+so other metrics we need to measure are 
+FAT = Factory Acceptance Test
+SAT = Site Acceptance Test
+IQ = Installation Qualification
+OQ = Operational Qualification
+Uptime = How often the system is working
+
+all these are also important metrics which are more important in the early stage almost more than tat 
+
+if these are cracked the company will stand on its own and the key to tht is working with the labs early and choosing the right early targets to focus on which paid pilots will help us to do 
+
+
+
+
+unit economics(bom or bill of materials )
+
+note this is an Explicit Author Model
+
+| Item                       | Cost            |
+| -------------------------- | --------------- |
+| Hardware                   | ₹9–13 lakh      |
+| Assembly & Testing         | ₹1.5–2.5 lakh   |
+| Installation & Integration | ₹1.5–3 lakh     |
+| Service Reserve            | ₹1–2.5 lakh     |
+| **Total**                  | **₹12–18 lakh** |
+
+
+2 types of installations give slight differences in bom 
+Edge
+
+AI runs locally inside the lab.
+Example:
+NVIDIA GPU installed near the robot.
+Robot thinks locally.
+Advantages:
+Faster
+More private
+No internet dependency
+Disadvantages:
+More expensive hardware
+this is to set up the robot in a lab when they outright buy it 
+if they use the robot as an non assistive robot its more expensive to maintain it easier to set it up as a assistive robot 
+
+
+Cloud
+
+AI runs on remote servers.
+Robot sends data online.
+Server returns actions.
+Advantages:
+Cheaper hardware
+Disadvantages:
+Cloud bills
+Internet dependency
+fits in perfectly with the raas model 
+
+
+important insight we donot make an income by selling reagents like the other companies 
+the companies tht build the robots tht do the testing itself they make money by selling the reagents almost like a printer the printer is the initial money flow and then the printer ink catridges need to also be paid for the creates recuring revenue and a huge issue with our business is tht we dont make money that way we only automate processes in between this cuts us off from a huge part of the supply chain that i would love to look into more once i aqquire more resources but this also means that we are focusing on a completly untouched market and thus our competition is not with the companies tht are doin this 
+
+
+need for quality narrative (The story the lab can tell auditors and customers about its quality.)
+story :
+Without automation:
+"We try our best."
+
+With automation:
+"We track every sample automatically, log every movement, monitor quality continuously, and maintain full traceability."
+
+
+Founder:
+"Look at my amazing AI-powered gantry robot!"
+
+Customer:
+Customer doesn't care about:
+VLA
+Transformers
+Neural networks
+Motion planning
+What customers actually care about
+
+Customer wants:
+Fewer mistakes
+Wrong sample handling costs money.
+Faster reporting
+Faster reports mean happier doctors and patients.
+Less labor
+Less repetitive work.
+Better compliance
+Easier accreditation.
+Better tracking
+Know where every sample is.
+Better utilization
+Keep analyzers busy.
+The robot is simply a tool to achieve these goals.
+
+What does "Robot Novelty" mean?
+Novelty means:
+Something interesting because it is new.
+Example:
+"Wow! A robot moving test tubes!"
+That's novelty.
+But labs do not buy novelty.
+They buy ROI.
+Return on Investment.
+
+Example:
+Customer doesn't say:
+"This robot is cool."
+Customer says:
+"Will this reduce errors by 30%?"
+What are Failure Points?
+Failure point means:
+Any place where something can go wrong.
+
+Examples:
+Technician forgets scan
+Sample goes to wrong analyzer
+Tube misplaced
+Label damaged
+Rack misidentified
+
+Automation reduces failure points.
+
+
+
+Why recurring software matters
+
+This is the biggest business insight.
+Many founders think:
+Sell robot → done.
+The report says that's wrong.
+The customer needs ongoing:
+Monitoring
+Is the system healthy?
+Updates
+New workflows.
+Analyzer integrations
+New machines.
+Tracking
+Reporting dashboards.
+Compliance logs
+Audit records.
+AI improvements
+Better routing.
+These are software functions.
+Why service matters
+Eventually:
+Motor fails
+Camera fails
+Network changes
+New analyzer arrives
+Customer expects support.
+If you disappear after installation:
+Customer won't buy.
+Therefore:
+Wrong business model
+Sell robot once.
+End relationship.
+Correct business model
+Sell:
+Hardware
+Software subscription
+Monitoring
+Support
+Service
+as one package.
